@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/91d3ed758a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer/Coder</p>
+                <h1>Hi Im <span>MG</span> or <br> Michael Glen S Vinluan </h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/ME.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Im Michael Glen S Vinluan And i am a Computer Science Student of Osmeña Colleges and i am a 3rd year college student</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programmer</span><br>Coder</li>
+                            <li><span>C++ Programming</span><br>C# Programming</li>
+                            <li><span>Visual Basic Programming</span><br>Python programming</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Programmer</span><br>School</li>
+                            <li><span>Phyton Programming</span><br>DICT Training of the Trainors</li>
+                            <li><span>Visual Basic Programming</span><br>School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Currently College Student</span><br>Osmeña Colleges</li>
+                            <li><span>2019 - High School</span><br>Alternative Learning System</li>
+                            <li><span>2012 - Elementary</span><br>Dominic Elementary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="image/icon2.png" alt="">
+                    <h2>Web Development</h2>
+                    <p>I can create all you want in your website
+                    
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="image/icon2.png" alt="">
+                    <h2>POS</h2>
+                    <p>I can create POS with High grapics Design and colorfull POS</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="image/icon2.png" alt="">
+                    <h2>Robotics</h2>
+                    <p>I can make a simple Robot that can walk and talk to you and can do anything</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------porfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="image/alice.png">
+                    <div class="layer">
+                        <h3>Alice Application/3D animation</h3>
+                        <p>A make A alice 3D animation</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/POS1.png">
+                    <div class="layer">
+                        <h3>POS Making</h3>
+                        <p>A can do POS in any programming languange and make a design</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/mywebsite.png">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>A make A website using HTML and Word press if HTML i can put a css and javascript on your website and a php database</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-----------------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mgvinluan11@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09501025437</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/M.G.Vinluan11"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></i></a>
+                </div>
+                <a href="image/act1.pdf" download class="btn btn4">Download</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your Email"required>
+                <textarea name="message" rows="6"placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn4">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright from Michael Glen S Vinluan<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu =document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxdcVJ6AR4UvJ-eSlCvOxPxWig5I9PETHzyBaOpAzSsFfpgcdcibdb4qjRbw0SeL9IrLA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
